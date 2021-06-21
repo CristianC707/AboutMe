@@ -66,5 +66,14 @@ nav a:hover {
 }
 
 .leftbar {
-    border-right: 100px solid #92ccce;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    color: var(--b);
+    background-image: linear-gradient(280deg, var(--b) 0%, var(--b) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    font-size: 1.4em;
+    
 }
