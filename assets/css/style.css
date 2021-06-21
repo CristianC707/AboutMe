@@ -65,3 +65,6 @@ nav a:hover {
     color: var(--a);
 }
 
+.leftbar {
+    border-right: 100px solid #92ccce;
+}
