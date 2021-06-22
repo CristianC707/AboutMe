@@ -103,22 +103,25 @@ main {
 
 .para {
     margin-left: 20px;
+    width: 800px;
+    height: 800px;
 }
 
 .leftbar {
-    margin-left: ;
     font-size: 250%;
     text-align: center;
     color: var(--c);
     border-right: 3px solid var(--c);
+    padding-right: 10px;
+    width: 200px;
+    }
 
-    /* margin-bottom: 15px;
+img {
     height: 200px;
-    width: 75%;
-    padding: 1%;
-    border-left: 3px solid var(--c);
-    border-left-width: thick; */
+    width: auto;
 }
+   
+
 
 /* work box 
 msrgin left anmd bot
