@@ -93,22 +93,31 @@ main {
 .content {
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
-    margin-bottom: 15px;
+    margin-top: 30px;
+    justify-content: left;
+    padding: 10px;
+    padding-top: 10px;
+    /* margin-bottom: 15px;
+    /* finish styling */
+}
+
+.para {
+    margin-left: 20px;
+}
+
+.leftbar {
+    margin-left: ;
+    font-size: 250%;
+    text-align: center;
+    color: var(--c);
+    border-right: 3px solid var(--c);
+
+    /* margin-bottom: 15px;
     height: 200px;
     width: 75%;
     padding: 1%;
     border-left: 3px solid var(--c);
-    border-left-width: thick;
-    /* finish styling */
-}
-
-.leftbar {
-    margin-top: ;
-    margin-left: ;
-    font-size: ;
-    text-align: ;
-    color: ;
+    border-left-width: thick; */
 }
 
 /* work box 
