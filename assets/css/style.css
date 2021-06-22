@@ -93,15 +93,13 @@ main {
 .content {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 25%;
+    /* flex-wrap: wrap; */
     margin-bottom: 15px;
     height: 200px;
     width: 75%;
     padding: 1%;
     border-left: 3px solid var(--c);
     border-left-width: thick;
-    background-color: var(--c);
     /* finish styling */
 }
 
