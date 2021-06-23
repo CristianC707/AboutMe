@@ -39,6 +39,7 @@ header h1 {
     padding: 5px 1% 5px 6%;
     font-size: 2vw;
     line-height: 1;
+    justify-content: start;
 }
 
 nav{
@@ -76,18 +77,19 @@ nav a:hover {
     border: solid 2px #4675AA;
     order: 1;
     flex: 0 1 auto;
-    
-    
-/* Add background img
-   Set size of img
-   Add flexbot to get h1 to bot-right */
+    align-items: flex-end;
+    text-align: right;
+}
 
+.hero-banner h2 {
+    display: inline;
+    margin: 0;
+    padding: 5px 10px;
 }
 
 main {
     margin-left: 100px;
     margin-right: 5px;
-    /* set width & margin left and margin right */
 }
 
 .content {
@@ -97,14 +99,12 @@ main {
     justify-content: left;
     padding: 10px;
     padding-top: 10px;
-    /* margin-bottom: 15px;
-    /* finish styling */
 }
 
 .para {
     margin-left: 20px;
-    width: 800px;
-    height: 800px;
+    width: 78vw;
+    /* height: 800px; */
 }
 
 .leftbar {
@@ -116,9 +116,36 @@ main {
     width: 200px;
     }
 
+#surfimg {
+    width: 100%;
+}   
+
+.img4 {
+    width: 50%;
+}
+
 img {
     height: 200px;
     width: auto;
+}
+
+.display {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+content a {
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    color: var(--b);
+    background-image: linear-gradient(280deg, var(--b) 0%, var(--b) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    font-size: 1.4em;
+    transition: all .25s ease-in;
 }
    
 
