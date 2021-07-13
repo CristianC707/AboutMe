@@ -131,7 +131,7 @@ main {
     border: 5px solid var(--b);
 }
 .imgmain {
-    background-image: url("../images/deep-blue-wave-1315938.jpg") ;
+    background-image: url("../images/OnTheGoHomeScreen.png") ;
     flex: 1 0 80%;
     height: 500px;
     background-size: cover;
@@ -139,13 +139,13 @@ main {
 }   
 
 .img2 {
-    background-image: url("../images/red-display-1196668.jpg");
+    background-image: url("../images/Screenshot\ 2021-06-30\ 214402.png");
     background-size: cover;
     background-position: center;
 }
 
 .img3 {
-    background-image: url("../images/calculator-1560882.jpg");
+    background-image: url("../images/img.png");
     background-size: cover;
     background-position: center;
 }
